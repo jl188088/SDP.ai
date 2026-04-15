@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-bg: #FFFFFF;
+  --color-surface: #F0F4F8;
+  --color-primary: #2563EB; /* Blue */
+  --color-secondary: #10B981; /* Green */
+  --color-border: #E2E8F0;
+  --color-text-main: #0F172A;
+  --color-text-muted: #64748B;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-text-main font-sans antialiased;
+    background-image: 
+      linear-gradient(to right, #f1f5f9 1px, transparent 1px),
+      linear-gradient(to bottom, #f1f5f9 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
+
+/* Geometric Markdown styling */
+.markdown-body h2 { 
+  @apply text-sm uppercase tracking-[0.2em] text-primary mb-6 mt-12 flex items-center font-bold border-l-4 border-primary pl-4 bg-primary/5 py-2; 
+}
+.markdown-body p { 
+  @apply text-base leading-relaxed text-text-main mb-6; 
+}
+.markdown-body ul { 
+  @apply list-none pl-0 mb-8 space-y-4; 
+}
+.markdown-body li { 
+  @apply text-base leading-relaxed pl-8 relative text-text-main border border-border p-4 bg-white shadow-sm hover:border-primary transition-colors; 
+}
+.markdown-body li::before {
+  content: "";
+  @apply absolute left-0 top-0 bottom-0 w-1.5 bg-secondary;
+}
+.markdown-body strong { 
+  @apply font-bold text-primary; 
+}
+.markdown-body blockquote { 
+  @apply border-l-8 border-secondary pl-6 italic my-10 text-text-main text-xl bg-secondary/5 py-8 rounded-r-xl; 
+}
+
+/* Geometric Layout Utilities */
+.geometric-card {
+  @apply bg-white border-2 border-text-main shadow-[8px_8px_0px_0px_rgba(15,23,42,1)] transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[10px_10px_0px_0px_rgba(15,23,42,1)];
+}
+
+.geometric-btn {
+  @apply relative overflow-hidden border-2 border-text-main bg-white px-8 py-3 font-bold uppercase tracking-widest text-sm transition-all hover:bg-primary hover:text-white active:translate-x-[2px] active:translate-y-[2px] active:shadow-none shadow-[4px_4px_0px_0px_rgba(15,23,42,1)];
+}

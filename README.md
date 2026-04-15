@@ -1,11 +1,52 @@
-<div align="center">
+# Strategic Debrief Protocol
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+An advanced executive decision-making strategist designed to help users make clear, structured, and intelligent life or career decisions.
 
-  <h1>Built with AI Studio</h2>
+**Developed & Authored by Jayalle Pangilinan**
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Project Structure (Flowchart)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+```mermaid
+graph TD
+    A[User Input] -->|Strategic Case| B(App.tsx)
+    B -->|Calls| C(geminiService.ts)
+    C -->|API Request| D[Strategic Intelligence Engine]
+    D -->|Structured Analysis| C
+    C -->|Response| B
+    B -->|Render| E[Geometric Executive Report]
+    
+    subgraph Frontend
+        B
+        C
+        E
+    end
+    
+    subgraph Backend
+        F(server.ts) -->|Vite Middleware| B
+        F -->|API Routes| G[Health Check]
+    end
+```
 
-</div>
+## Directory Structure
+
+```text
+/
+├── server.ts             # Express server entry point (Full-stack)
+├── package.json          # Dependencies & Scripts (tsx dev)
+├── vite.config.ts        # Vite configuration
+├── src/
+│   ├── App.tsx           # Main UI & Logic
+│   ├── main.tsx          # React entry point
+│   ├── index.css         # Geometric styling & Markdown themes
+│   ├── services/
+│   │   └── geminiService.ts # AI Integration & System Instructions
+│   └── components/       # UI Components
+│       └── ui/           # shadcn/ui components
+└── components.json       # shadcn configuration
+```
+
+## Features
+- **Geometric Design**: Brutalist-inspired UI with high-contrast White, Green, and Blue palette.
+- **Strategic Intelligence**: McKinsey-style analytical breakdowns.
+- **Full-Stack**: Express backend with Vite middleware integration.
+- **Animations**: Fluid motion transitions using `motion/react`.
