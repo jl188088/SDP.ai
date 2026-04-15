@@ -2,6 +2,12 @@
 
 An advanced executive decision-making strategist designed to help users make clear, structured, and intelligent life or career decisions.
 
+<img width="1426" height="611" alt="Screenshot 2026-04-15 at 1 16 39 PM" src="https://github.com/user-attachments/assets/2d74e5b1-9947-4f10-9ffc-c262c6cf5c16" />
+<img width="1341" height="638" alt="Screenshot 2026-04-15 at 1 17 32 PM" src="https://github.com/user-attachments/assets/6b898463-9b12-49a7-b372-8d686df97451" />
+<img width="1388" height="666" alt="Screenshot 2026-04-15 at 1 17 24 PM" src="https://github.com/user-attachments/assets/b7d9fd26-3393-4466-a973-8bf4fcda30d4" />
+<img width="1417" height="609" alt="Screenshot 2026-04-15 at 1 17 44 PM" src="https://github.com/user-attachments/assets/3ca9d977-4e34-421c-9c3a-ace96b1e96a1" />
+<img width="1439" height="614" alt="Screenshot 2026-04-15 at 1 16 19 PM" src="https://github.com/user-attachments/assets/ba43d139-9133-48b6-9f9d-8e2c250b8126" />
+
 
 ## Project Structure (Flowchart)
 
@@ -25,12 +31,6 @@ graph TD
         F -->|API Routes| G[Health Check]
     end
 ```
-<img width="1426" height="611" alt="Screenshot 2026-04-15 at 1 16 39 PM" src="https://github.com/user-attachments/assets/2d74e5b1-9947-4f10-9ffc-c262c6cf5c16" />
-<img width="1341" height="638" alt="Screenshot 2026-04-15 at 1 17 32 PM" src="https://github.com/user-attachments/assets/6b898463-9b12-49a7-b372-8d686df97451" />
-<img width="1388" height="666" alt="Screenshot 2026-04-15 at 1 17 24 PM" src="https://github.com/user-attachments/assets/b7d9fd26-3393-4466-a973-8bf4fcda30d4" />
-<img width="1417" height="609" alt="Screenshot 2026-04-15 at 1 17 44 PM" src="https://github.com/user-attachments/assets/3ca9d977-4e34-421c-9c3a-ace96b1e96a1" />
-<img width="1439" height="614" alt="Screenshot 2026-04-15 at 1 16 19 PM" src="https://github.com/user-attachments/assets/ba43d139-9133-48b6-9f9d-8e2c250b8126" />
-
 ## Directory Structure
 
 ```text
