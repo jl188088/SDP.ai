@@ -2,7 +2,6 @@
 
 An advanced executive decision-making strategist designed to help users make clear, structured, and intelligent life or career decisions.
 
-**Developed & Authored by Jayalle Pangilinan**
 
 ## Project Structure (Flowchart)
 
@@ -50,3 +49,5 @@ graph TD
 - **Strategic Intelligence**: McKinsey-style analytical breakdowns.
 - **Full-Stack**: Express backend with Vite middleware integration.
 - **Animations**: Fluid motion transitions using `motion/react`.
+
+**Developed & Authored by Jayalle Pangilinan**
